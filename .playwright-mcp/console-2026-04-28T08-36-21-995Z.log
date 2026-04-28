@@ -1,0 +1,73 @@
+[     197ms] [LOG] ContentPass | Sourcepoint not loaded yet. Retrying. @ https://www.bbcgoodfood.com/recipes/banoffee-pie:362
+[     307ms] [LOG] ContentPass | Starting Sourcepoint @ https://www.bbcgoodfood.com/recipes/banoffee-pie:357
+[     506ms] [LOG] Initialising CMP gate... @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[     506ms] [LOG] CMP gate, gate {visible: true, hiddenDispatched: false, hiddenListenerAttached: false} @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[     507ms] [LOG] CMP gate, gate {visible: true, hiddenDispatched: false, hiddenListenerAttached: false} @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[     508ms] [LOG] CMP - INSIDE:::: onCMPUIBeenShown @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[     508ms] [LOG] CMP - INSIDE:::: onCMPUIBeenShown @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[     509ms] [LOG] CMP onCMPUIBeenShown just called @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[     509ms] [LOG] CMP onCMPUIBeenShown just called @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[     509ms] [LOG] CMP gate Initialised!!!... @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[     510ms] [LOG] CMP gate Initialised!!!... @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[     510ms] [LOG] Zephr: Setting up Zephr consent synchronization @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[     511ms] [LOG] Zephr: Setting up Zephr consent synchronization @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[     511ms] [LOG] Zephr: Zephr consent synchronization setup complete @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[     512ms] [LOG] Zephr: Zephr consent synchronization setup complete @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[     512ms] [LOG] Non-account page detected, running Zephr immediately. @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[     512ms] [LOG] Non-account page detected, running Zephr immediately. @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[     513ms] [LOG] CMP visible — delaying Zephr.run() @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[     513ms] [LOG] CMP visible — delaying Zephr.run() @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[     514ms] [LOG] Zephr enabled. @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[     514ms] [LOG] Zephr enabled. @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[     530ms] [LOG] Using Auth0's UserContext @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[     531ms] [LOG] Using Auth0's UserContext @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[     531ms] [LOG] Using Auth0's UserContext @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[     531ms] [LOG] Using Auth0's UserContext @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[     532ms] [LOG] Using Auth0's UserContext @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[     532ms] [LOG] Using Auth0's UserContext @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[     533ms] [LOG] Initializing OpenWebSSO component @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[     533ms] [LOG] Using Auth0's UserContext @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[     659ms] [LOG] Using Auth0's UserContext (repeated 8 times) @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[     659ms] [LOG] Missing required settings. Skipping. {spotId: undefined, useIdentitySso: undefined} @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[     659ms] [LOG] Missing required settings for logout check. Skipping. {spotId: undefined, useIdentitySso: undefined} @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[     684ms] [LOG] Hydration complete after 13.80 ms @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[     694ms] [LOG] Using Auth0's UserContext @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[     695ms] [LOG] Using Auth0's UserContext @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[     732ms] [LOG] Using Auth0's UserContext @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[     900ms] [LOG] Using Auth0's UserContext @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[     902ms] [LOG] Using Auth0's UserContext @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[    1030ms] [LOG] Using Auth0's UserContext (repeated 15 times) @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[    1031ms] [LOG] Initializing OpenWebSSO component @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[    1031ms] [LOG] Using Auth0's UserContext @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[    1032ms] [LOG] Using Auth0's UserContext @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[    1032ms] [LOG] Using Auth0's UserContext @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[    1033ms] [LOG] Using Auth0's UserContext @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[    1060ms] [LOG] Using Auth0's UserContext @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[    1106ms] [LOG] Using Auth0's UserContext (repeated 12 times) @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[    1107ms] [LOG] Missing required settings. Skipping. {spotId: undefined, useIdentitySso: undefined} @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[    1113ms] [LOG] Using Auth0's UserContext @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[    1113ms] [LOG] Using Auth0's UserContext @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[    1114ms] [LOG] Using Auth0's UserContext @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[    1365ms] [LOG] Messaging without detection successfully executed. @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[    1366ms] [LOG] SourcePoint | [event] onSPPMObjectReady [undefined] @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[    1393ms] [LOG] CMP UI shown — gating Zephr @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[    1393ms] [LOG] CMP UI shown — gating Zephr @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[    1396ms] [LOG] Zephr: Consent change detected (event 1) @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[    1397ms] [LOG] Zephr: Consent change detected (event 1) @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[    1398ms] [LOG] Zephr: Initializing Zephr @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[    1399ms] [LOG] Zephr: Initializing Zephr @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[    1399ms] [LOG] Zephr: Checking user authentication {imoLoginValue: undefined, isAuthenticated: false, hasCookie: false} @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[    1400ms] [LOG] Zephr: Checking user authentication {imoLoginValue: undefined, isAuthenticated: false, hasCookie: false} @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[    1401ms] [LOG] Zephr: User not authenticated, skipping sync @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[    1401ms] [LOG] Zephr: User not authenticated, skipping sync @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[    1426ms] [LOG] SourcePoint | [event] onMessageReceiveData [gdpr, Object] @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[    1430ms] [ERROR] Consentless Inventory | Cannot retreive Consent Data {hasConsented: false} @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[    1553ms] [LOG] Zephr: Initializing Zephr @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[    1553ms] [LOG] Zephr: Initializing Zephr @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[    1553ms] [LOG] Zephr: Checking user authentication {imoLoginValue: undefined, isAuthenticated: false, hasCookie: false} @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[    1554ms] [LOG] Zephr: Checking user authentication {imoLoginValue: undefined, isAuthenticated: false, hasCookie: false} @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[    1554ms] [LOG] Zephr: User not authenticated, skipping sync @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[    1554ms] [LOG] Zephr: User not authenticated, skipping sync @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[    2159ms] [LOG] SourcePoint | [event] onMessageReady [gdpr] @ https://www.bbcgoodfood.com/_next/static/chunks/pages/_app-27e079f3be6c5e87.js:64
+[    7159ms] [WARNING] The resource https://www.bbcgoodfood.com/segment/analytics.js/v1/DqXUIAeV8f6valtkjZA8NiwwSbvcv8jR/analytics.min.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.bbcgoodfood.com/recipes/banoffee-pie:0
+[   35348ms] [WARNING] The resource https://www.bbcgoodfood.com/segment/analytics.js/v1/DqXUIAeV8f6valtkjZA8NiwwSbvcv8jR/analytics.min.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.bbcgoodfood.com/recipes/banoffee-pie:0

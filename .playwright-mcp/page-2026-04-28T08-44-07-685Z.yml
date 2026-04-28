@@ -1,0 +1,196 @@
+- generic [active] [ref=e1]:
+  - img:
+    - generic:
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+  - link "Skip to Content" [ref=e2] [cursor=pointer]:
+    - /url: "#skip-to-content"
+    - generic [ref=e3]: Skip to Content
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - button "button" [ref=e7] [cursor=pointer]:
+          - img [ref=e8]
+          - text: button
+        - link "Visit Simply Recipes's homepage" [ref=e10] [cursor=pointer]:
+          - /url: https://www.simplyrecipes.com/
+          - img [ref=e11]
+      - generic [ref=e13]:
+        - navigation [ref=e15]:
+          - list [ref=e16]:
+            - listitem [ref=e17] [cursor=pointer]:
+              - link "Recipe of the Day":
+                - /url: https://www.simplyrecipes.com/recipes-5090746
+              - img [ref=e18]
+            - listitem [ref=e20] [cursor=pointer]:
+              - link "Recipes":
+                - /url: https://www.simplyrecipes.com/recipes-5090746
+              - img [ref=e21]
+            - listitem [ref=e23] [cursor=pointer]:
+              - link "In the Kitchen":
+                - /url: https://www.simplyrecipes.com/cooking-how-tos-5090751
+              - img [ref=e24]
+            - listitem [ref=e26] [cursor=pointer]:
+              - link "Table Talk":
+                - /url: https://www.simplyrecipes.com/table-talk-5206565
+              - img [ref=e27]
+            - listitem [ref=e29] [cursor=pointer]:
+              - link "The 2026 Freezies Awards":
+                - /url: https://www.simplyrecipes.com/freezies-2026-11903212
+              - img [ref=e30]
+            - listitem [ref=e32] [cursor=pointer]:
+              - link "About us":
+                - /url: https://www.simplyrecipes.com/about-us-5096129
+            - listitem [ref=e33] [cursor=pointer]:
+              - link "Go to MyRecipes" [ref=e35]:
+                - /url: https://www.myrecipes.com/
+                - img [ref=e36]
+                - img [ref=e38]
+          - generic [ref=e39]:
+            - generic [ref=e41]: Sign up for a daily delivery of recipes, tips & stories!
+            - generic [ref=e43]:
+              - generic [ref=e44]: Email Address
+              - textbox "Email Address" [ref=e45]:
+                - /placeholder: Enter your email
+              - button "Sign up" [ref=e46] [cursor=pointer]
+        - link "Go to MyRecipes" [ref=e48] [cursor=pointer]:
+          - /url: https://www.myrecipes.com/
+          - img [ref=e49]
+          - generic [ref=e51]: My Saves
+        - search [ref=e52]:
+          - button "Open search form" [ref=e53] [cursor=pointer]:
+            - text: Search
+            - img [ref=e54]
+  - main [ref=e56]:
+    - generic [ref=e57]:
+      - 'heading "404: Page Not Found" [level=2] [ref=e59]'
+      - generic [ref=e60]:
+        - generic [ref=e61]: Oops, we burned our cookies!
+        - img [ref=e63]
+        - generic [ref=e64]: The page you're looking for is unavailable. Please use our site search or the menu above to start a new batch.
+        - link "home" [ref=e65] [cursor=pointer]:
+          - /url: /
+          - button "home" [ref=e66]
+  - contentinfo [ref=e67]:
+    - generic [ref=e69]:
+      - generic [ref=e70]:
+        - link "Visit Simply Recipes's homepage" [ref=e72] [cursor=pointer]:
+          - /url: https://www.simplyrecipes.com/
+          - img [ref=e73]
+        - generic [ref=e75]:
+          - generic [ref=e76]:
+            - generic [ref=e77]: Ready to cook?
+            - generic [ref=e78]: Sign up for our weekly newsletters!
+          - generic [ref=e80]:
+            - generic [ref=e81]: Email Address
+            - textbox "Email Address" [ref=e82]:
+              - /placeholder: Enter your email
+            - button "Sign up" [ref=e83] [cursor=pointer]
+        - generic [ref=e84]:
+          - generic [ref=e85]: Let's be friends!
+          - list [ref=e86]:
+            - listitem [ref=e87]:
+              - link "Visit Simply Recipes's facebook" [ref=e88] [cursor=pointer]:
+                - /url: https://www.facebook.com/simplyrecipes
+                - img [ref=e89]
+            - listitem [ref=e91]:
+              - link "Visit Simply Recipes's instagram" [ref=e92] [cursor=pointer]:
+                - /url: https://www.instagram.com/simplyrecipes
+                - img [ref=e93]
+            - listitem [ref=e95]:
+              - link "Visit Simply Recipes's pinterest" [ref=e96] [cursor=pointer]:
+                - /url: https://www.pinterest.com/simplyrecipes
+                - img [ref=e97]
+            - listitem [ref=e99]:
+              - link "Visit Simply Recipes's youtube" [ref=e100] [cursor=pointer]:
+                - /url: https://www.youtube.com/c/simplyrecipes
+                - img [ref=e101]
+      - generic [ref=e103]:
+        - list [ref=e104]:
+          - listitem [ref=e105]:
+            - link "Recipes" [ref=e106] [cursor=pointer]:
+              - /url: https://www.simplyrecipes.com/recipes-5090746
+          - listitem [ref=e107]:
+            - link "Quick & Easy" [ref=e108] [cursor=pointer]:
+              - /url: https://www.simplyrecipes.com/recipes-by-time-and-ease-5090817
+          - listitem [ref=e109]:
+            - link "In the Kitchen" [ref=e110] [cursor=pointer]:
+              - /url: https://www.simplyrecipes.com/cooking-how-tos-5090751
+          - listitem [ref=e111]:
+            - link "Buying Guides" [ref=e112] [cursor=pointer]:
+              - /url: https://www.simplyrecipes.com/kitchen-food-buying-guides-5090755
+          - listitem [ref=e113]:
+            - link "Holidays & Seasons" [ref=e114] [cursor=pointer]:
+              - /url: https://www.simplyrecipes.com/holiday-and-seasonal-recipes-5091321
+        - list [ref=e115]:
+          - listitem [ref=e116]:
+            - link "About Us" [ref=e117] [cursor=pointer]:
+              - /url: https://www.simplyrecipes.com/about-us-5096129
+          - listitem [ref=e118]:
+            - link "Advertise" [ref=e119] [cursor=pointer]:
+              - /url: https://www.people.inc/advertising
+          - listitem [ref=e120]:
+            - link "Terms of Service" [ref=e121] [cursor=pointer]:
+              - /url: https://www.people.inc/brands-termsofservice
+          - listitem [ref=e122]:
+            - link "Careers" [ref=e123] [cursor=pointer]:
+              - /url: https://www.people.inc/careers
+          - listitem [ref=e124]:
+            - link "Editorial Guidelines" [ref=e125] [cursor=pointer]:
+              - /url: https://www.simplyrecipes.com/about-us-5096129#toc-recipe-development--testing
+          - listitem [ref=e126]:
+            - link "Sweepstakes" [ref=e127] [cursor=pointer]:
+              - /url: https://www.simplyrecipes.com/sweepstakes
+          - listitem [ref=e128]:
+            - link "Privacy Policy" [ref=e129] [cursor=pointer]:
+              - /url: https://www.people.inc/brands-privacy
+          - listitem [ref=e130]:
+            - link "Contact" [ref=e131] [cursor=pointer]:
+              - /url: https://www.simplyrecipes.com/about-us-5096129#toc-contact-us
+    - generic [ref=e134]:
+      - img [ref=e135]
+      - generic [ref=e138]:
+        - text: Simply Recipes is part of the
+        - link "People Inc." [ref=e139] [cursor=pointer]:
+          - /url: https://www.people.inc
+        - text: publishing family.

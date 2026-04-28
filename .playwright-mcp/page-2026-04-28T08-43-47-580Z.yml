@@ -1,0 +1,736 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e3] [cursor=pointer]:
+    - /url: "#content"
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "delicious. magazine" [ref=e7] [cursor=pointer]:
+          - /url: https://www.deliciousmagazine.co.uk
+          - img "delicious. magazine" [ref=e8]
+        - link "Login" [ref=e12] [cursor=pointer]:
+          - /url: https://www.deliciousmagazine.co.uk/login/
+        - button "Toggle Navigation" [ref=e13] [cursor=pointer]:
+          - generic [ref=e14]: Toggle Navigation
+      - navigation [ref=e18]:
+        - search [ref=e20]:
+          - generic [ref=e21]:
+            - generic [ref=e22]: Search for
+            - textbox "Search for" [ref=e23]:
+              - /placeholder: Search recipes & more
+        - list [ref=e25]:
+          - listitem [ref=e26]:
+            - link "Recipes" [ref=e27] [cursor=pointer]:
+              - /url: https://www.deliciousmagazine.co.uk/recipes/
+            - list [ref=e28]:
+              - listitem [ref=e29]:
+                - link "All Recipes" [ref=e30] [cursor=pointer]:
+                  - /url: https://www.deliciousmagazine.co.uk/recipes/
+              - listitem [ref=e31]:
+                - link "Main ingredients" [ref=e32] [cursor=pointer]:
+                  - /url: "#"
+                - list [ref=e33]:
+                  - listitem [ref=e34]:
+                    - link "Beef" [ref=e35] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/ingredients/beef-recipes/
+                  - listitem [ref=e36]:
+                    - link "Beef mince" [ref=e37] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/beef-mince-recipes/
+                  - listitem [ref=e38]:
+                    - link "Cheese" [ref=e39] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/ingredients/cheese-recipes/
+                  - listitem [ref=e40]:
+                    - link "Chicken" [ref=e41] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/ingredients/chicken-recipes/
+                  - listitem [ref=e42]:
+                    - link "Chocolate" [ref=e43] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/ingredients/chocolate-recipes/
+                  - listitem [ref=e44]:
+                    - link "Eggs" [ref=e45] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/ingredients/egg-recipes/
+                  - listitem [ref=e46]:
+                    - link "Fish" [ref=e47] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/ingredients/fish-recipes/
+                  - listitem [ref=e48]:
+                    - link "Fruit" [ref=e49] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/ingredients/fruit-recipes/
+                  - listitem [ref=e50]:
+                    - link "Lamb" [ref=e51] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/ingredients/lamb-recipes/
+                  - listitem [ref=e52]:
+                    - link "Mushrooms" [ref=e53] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/ingredients/mushroom-recipes/
+                  - listitem [ref=e54]:
+                    - link "Pasta" [ref=e55] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/ingredients/pasta-recipes/
+                  - listitem [ref=e56]:
+                    - link "Pork" [ref=e57] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/ingredients/pork-recipes/
+                  - listitem [ref=e58]:
+                    - link "Salmon" [ref=e59] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/ingredients/salmon-recipes/
+                  - listitem [ref=e60]:
+                    - link "Sausages" [ref=e61] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/ingredients/sausage-recipes/
+                  - listitem [ref=e62]:
+                    - link "Seafood" [ref=e63] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/ingredients/seafood-recipes/
+                  - listitem [ref=e64]:
+                    - link "Vegetables" [ref=e65] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/ingredients/vegetable-recipes/
+              - listitem [ref=e66]:
+                - link "Drinks recipes" [ref=e67] [cursor=pointer]:
+                  - /url: https://www.deliciousmagazine.co.uk/drinks/
+                - list [ref=e68]:
+                  - listitem [ref=e69]:
+                    - link "Non-alcoholic drinks" [ref=e70] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/non-alcoholic-drink-recipes/
+                  - listitem [ref=e71]:
+                    - link "All cocktails" [ref=e72] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/cocktail-recipes/
+                  - listitem [ref=e73]:
+                    - link "Champagne cocktails" [ref=e74] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/champagne-cocktails/
+                  - listitem [ref=e75]:
+                    - link "Gin cocktails" [ref=e76] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/gin-cocktail-recipes/
+                  - listitem [ref=e77]:
+                    - link "Spicy cocktails" [ref=e78] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/spicy-cocktail-recipes/
+                  - listitem [ref=e79]:
+                    - link "Summer cocktails" [ref=e80] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/summer-cocktail-recipes/
+                  - listitem [ref=e81]:
+                    - link "Vodka cocktails" [ref=e82] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/vodka-cocktail-recipes/
+                  - listitem [ref=e83]:
+                    - link "Winter cocktails" [ref=e84] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/winter-cocktail-recipes/
+              - listitem [ref=e85]:
+                - link "Cuisine" [ref=e86] [cursor=pointer]:
+                  - /url: "#"
+                - list [ref=e87]:
+                  - listitem [ref=e88]:
+                    - link "African" [ref=e89] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/african-recipes/
+                  - listitem [ref=e90]:
+                    - link "American" [ref=e91] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/cuisine/american-recipes/
+                  - listitem [ref=e92]:
+                    - link "Australian" [ref=e93] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/cuisine/australian-recipes/
+                  - listitem [ref=e94]:
+                    - link "British" [ref=e95] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/cuisine/british-recipes/
+                  - listitem [ref=e96]:
+                    - link "Caribbean" [ref=e97] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/caribbean-recipes/
+                  - listitem [ref=e98]:
+                    - link "Chinese" [ref=e99] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/cuisine/chinese-recipes/
+                  - listitem [ref=e100]:
+                    - link "French" [ref=e101] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/cuisine/french-recipes/
+                  - listitem [ref=e102]:
+                    - link "German" [ref=e103] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/cuisine/german-recipes/
+                  - listitem [ref=e104]:
+                    - link "Greek" [ref=e105] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/cuisine/greek-recipes/
+                  - listitem [ref=e106]:
+                    - link "Indian" [ref=e107] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/cuisine/indian-recipes/
+                  - listitem [ref=e108]:
+                    - link "Italian" [ref=e109] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/cuisine/italian-recipes/
+                  - listitem [ref=e110]:
+                    - link "Japanese" [ref=e111] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/cuisine/japanese-recipes/
+                  - listitem [ref=e112]:
+                    - link "Korean" [ref=e113] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/cuisine/korean-recipes/
+                  - listitem [ref=e114]:
+                    - link "Mediterranean" [ref=e115] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/cuisine/mediterranean-recipes/
+                  - listitem [ref=e116]:
+                    - link "Mexican" [ref=e117] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/cuisine/mexican-recipes/
+                  - listitem [ref=e118]:
+                    - link "Middle Eastern" [ref=e119] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/cuisine/middle-eastern/
+                  - listitem [ref=e120]:
+                    - link "Moroccan" [ref=e121] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/cuisine/moroccan-recipes/
+                  - listitem [ref=e122]:
+                    - link "Scandinavian" [ref=e123] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/cuisine/scandinavian-recipes/
+                  - listitem [ref=e124]:
+                    - link "Spanish" [ref=e125] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/cuisine/spanish-recipes/
+                  - listitem [ref=e126]:
+                    - link "Vietnamese" [ref=e127] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/cuisine/vietnamese-recipes/
+                  - listitem [ref=e128]:
+                    - link "All cuisines" [ref=e129] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/cuisines/
+              - listitem [ref=e130]:
+                - link "Vegetarian & vegan" [ref=e131] [cursor=pointer]:
+                  - /url: "#"
+                - list [ref=e132]:
+                  - listitem [ref=e133]:
+                    - link "All vegetarian" [ref=e134] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/dietary_requirements/vegetarian/
+                  - listitem [ref=e135]:
+                    - link "Healthy vegetarian" [ref=e136] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/healthy-vegetarian-recipes/
+                  - listitem [ref=e137]:
+                    - link "Italian vegetarian" [ref=e138] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/italian-vegetarian-recipes/
+                  - listitem [ref=e139]:
+                    - link "Quick vegetarian" [ref=e140] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/quick-vegetarian-recipes/
+                  - listitem [ref=e141]:
+                    - link "Vegetarian one pots" [ref=e142] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/vegetarian-bake-recipes/
+                  - listitem [ref=e143]:
+                    - link "Vegetarian barbecue" [ref=e144] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/vegetarian-barbecue-recipes/
+                  - listitem [ref=e145]:
+                    - link "Vegetarian brunch" [ref=e146] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/vegetarian-brunch-recipes/
+                  - listitem [ref=e147]:
+                    - link "Vegetarian burgers" [ref=e148] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/vegetarian-burger-recipes/
+                  - listitem [ref=e149]:
+                    - link "Vegetarian casseroles" [ref=e150] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/vegetarian-casserole-recipes/
+                  - listitem [ref=e151]:
+                    - link "Vegetarian pasta" [ref=e152] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/vegetarian-pasta-recipes/
+                  - listitem [ref=e153]:
+                    - link "All vegan" [ref=e154] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/dietary_requirements/vegan-recipes/
+                  - listitem [ref=e155]:
+                    - link "Vegan baking" [ref=e156] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/vegan-baking-recipes/
+                  - listitem [ref=e157]:
+                    - link "Vegan comfort food" [ref=e158] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/vegan-comfort-food/
+                  - listitem [ref=e159]:
+                    - link "Vegan curry" [ref=e160] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/vegan-curry-recipes/
+                  - listitem [ref=e161]:
+                    - link "Vegan pasta" [ref=e162] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/vegan-pasta-recipes/
+                  - listitem [ref=e163]:
+                    - link "Vegan roasts" [ref=e164] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/vegan-roast-recipes/
+                  - listitem [ref=e165]:
+                    - link "Vegan desserts" [ref=e166] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/vegan-dessert-recipes/
+                  - listitem [ref=e167]:
+                    - link "Vegan dinners" [ref=e168] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/vegan-dinner-recipes/
+                  - listitem [ref=e169]:
+                    - link "Easy vegan" [ref=e170] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/easy-vegan-recipes/
+              - listitem [ref=e171]:
+                - link "Baking" [ref=e172] [cursor=pointer]:
+                  - /url: https://www.deliciousmagazine.co.uk/collections/baking-recipes/
+                - list [ref=e173]:
+                  - listitem [ref=e174]:
+                    - link "All baking" [ref=e175] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/baking-recipes/
+                  - listitem [ref=e176]:
+                    - link "Cakes" [ref=e177] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/cake-recipes/
+                  - listitem [ref=e178]:
+                    - link "Birthday cakes" [ref=e179] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/birthday-cake-recipes/
+                  - listitem [ref=e180]:
+                    - link "Biscuits" [ref=e181] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/biscuit-recipes/
+                  - listitem [ref=e182]:
+                    - link "Brownies" [ref=e183] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/brownie-recipes/
+                  - listitem [ref=e184]:
+                    - link "Bundt cakes" [ref=e185] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/bundt-cake-recipes/
+                  - listitem [ref=e186]:
+                    - link "Carrot cakes" [ref=e187] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/carrot-cake-recipes/
+                  - listitem [ref=e188]:
+                    - link "Celebration cakes" [ref=e189] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/celebration-cake-recipes/
+                  - listitem [ref=e190]:
+                    - link "Chocolate cakes" [ref=e191] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/chocolate-cake-recipes/
+                  - listitem [ref=e192]:
+                    - link "Easy cakes" [ref=e193] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/easy-cake-recipes/
+                  - listitem [ref=e194]:
+                    - link "Flourless baking" [ref=e195] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/flourless-baking-recipes/
+                  - listitem [ref=e196]:
+                    - link "Loaf cakes" [ref=e197] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/loaf-cake-recipes/
+              - listitem [ref=e198]:
+                - link "Occasion" [ref=e199] [cursor=pointer]:
+                  - /url: "#"
+                - list [ref=e200]:
+                  - listitem [ref=e201]:
+                    - link "Afternoon tea" [ref=e202] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/afternoon-tea-recipes/
+                  - listitem [ref=e203]:
+                    - link "Air fryer" [ref=e204] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/air-fryer-recipes/
+                  - listitem [ref=e205]:
+                    - link "Barbecue" [ref=e206] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/barbecue-recipes/
+                  - listitem [ref=e207]:
+                    - link "Birthday cakes" [ref=e208] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/birthday-cake-recipes/
+                  - listitem [ref=e209]:
+                    - link "Brunch" [ref=e210] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/brunch-recipes/
+                  - listitem [ref=e211]:
+                    - link "Comfort food" [ref=e212] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/comfort-food-recipes/
+                  - listitem [ref=e213]:
+                    - link "Dinner party mains" [ref=e214] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/easy-dinner-party-mains/
+                  - listitem [ref=e215]:
+                    - link "Midweek meals" [ref=e216] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/midweek-meal-recipes/
+                  - listitem [ref=e217]:
+                    - link "Friday night dinners" [ref=e218] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/friday-night-dinners/
+                  - listitem [ref=e219]:
+                    - link "Weekend dinner ideas" [ref=e220] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/weekend-dinner-recipes/
+              - listitem [ref=e221]:
+                - link "Special diets" [ref=e222] [cursor=pointer]:
+                  - /url: "#"
+                - list [ref=e223]:
+                  - listitem [ref=e224]:
+                    - link "Dairy-free" [ref=e225] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/dietary_requirements/dairy-free/
+                  - listitem [ref=e226]:
+                    - link "Gluten-free" [ref=e227] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/dietary_requirements/gluten-free/
+                  - listitem [ref=e228]:
+                    - link "Vegetarian" [ref=e229] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/dietary_requirements/vegetarian/
+                  - listitem [ref=e230]:
+                    - link "Vegan" [ref=e231] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/dietary_requirements/vegan-recipes/
+                  - listitem [ref=e232]:
+                    - link "Diabetes-friendly" [ref=e233] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/diabetes-friendly-recipes/
+                  - listitem [ref=e234]:
+                    - link "Lower-calorie" [ref=e235] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/collections/low-calorie-dinner-recipes/
+                  - listitem [ref=e236]:
+                    - link "Healthy recipes" [ref=e237] [cursor=pointer]:
+                      - /url: https://www.deliciousmagazine.co.uk/health/
+          - listitem [ref=e238]:
+            - link "January inspiration" [ref=e239] [cursor=pointer]:
+              - /url: https://www.deliciousmagazine.co.uk/collections/january-seasonal-food/
+          - listitem [ref=e240]:
+            - link "Be a Better Cook" [ref=e241] [cursor=pointer]:
+              - /url: https://www.deliciousmagazine.co.uk/skills/
+          - listitem [ref=e242]:
+            - link "Features" [ref=e243] [cursor=pointer]:
+              - /url: https://www.deliciousmagazine.co.uk/features/
+            - list [ref=e244]:
+              - listitem [ref=e245]:
+                - link "All features" [ref=e246] [cursor=pointer]:
+                  - /url: https://www.deliciousmagazine.co.uk/features/
+              - listitem [ref=e247]:
+                - link "Travel" [ref=e248] [cursor=pointer]:
+                  - /url: https://www.deliciousmagazine.co.uk/travel/
+              - listitem [ref=e249]:
+                - link "Interviews" [ref=e250] [cursor=pointer]:
+                  - /url: https://www.deliciousmagazine.co.uk/features/interviews/
+              - listitem [ref=e251]:
+                - link "Round-ups" [ref=e252] [cursor=pointer]:
+                  - /url: https://www.deliciousmagazine.co.uk/guides/round-ups/
+              - listitem [ref=e253]:
+                - link "Sustainability" [ref=e254] [cursor=pointer]:
+                  - /url: https://www.deliciousmagazine.co.uk/sustainability/
+              - listitem [ref=e255]:
+                - link "Drinks" [ref=e256] [cursor=pointer]:
+                  - /url: https://www.deliciousmagazine.co.uk/guides/drinks/
+          - listitem [ref=e257]:
+            - link "Guides" [ref=e258] [cursor=pointer]:
+              - /url: https://www.deliciousmagazine.co.uk/guides/
+            - list [ref=e259]:
+              - listitem [ref=e260]:
+                - link "All guides" [ref=e261] [cursor=pointer]:
+                  - /url: https://www.deliciousmagazine.co.uk/guides/
+              - listitem [ref=e262]:
+                - link "Discoveries" [ref=e263] [cursor=pointer]:
+                  - /url: https://www.deliciousmagazine.co.uk/discoveries/
+              - listitem [ref=e264]:
+                - link "Leftovers" [ref=e265] [cursor=pointer]:
+                  - /url: https://www.deliciousmagazine.co.uk/guides/leftovers/
+              - listitem [ref=e266]:
+                - link "Round-ups" [ref=e267] [cursor=pointer]:
+                  - /url: https://www.deliciousmagazine.co.uk/guides/round-ups/
+              - listitem [ref=e268]:
+                - link "Menu planning" [ref=e269] [cursor=pointer]:
+                  - /url: https://www.deliciousmagazine.co.uk/guides/menus/
+              - listitem [ref=e270]:
+                - link "Ingredients" [ref=e271] [cursor=pointer]:
+                  - /url: https://www.deliciousmagazine.co.uk/guides/ingredients/
+              - listitem [ref=e272]:
+                - link "Skills" [ref=e273] [cursor=pointer]:
+                  - /url: https://www.deliciousmagazine.co.uk/skills/
+              - listitem [ref=e274]:
+                - link "Tips" [ref=e275] [cursor=pointer]:
+                  - /url: https://www.deliciousmagazine.co.uk/guides/tips/
+          - listitem [ref=e276]:
+            - link "Competitions" [ref=e277] [cursor=pointer]:
+              - /url: https://competitions.deliciousmagazine.co.uk/
+          - listitem [ref=e278]:
+            - link "Reviews" [ref=e279] [cursor=pointer]:
+              - /url: https://www.deliciousmagazine.co.uk/reviews/
+        - generic [ref=e280]:
+          - link "Login" [ref=e281] [cursor=pointer]:
+            - /url: /login/
+          - link "Register" [ref=e282] [cursor=pointer]:
+            - /url: /register/
+      - search [ref=e284]:
+        - generic [ref=e285]:
+          - generic [ref=e286]: Search for
+          - textbox "Search for" [ref=e287]:
+            - /placeholder: Search recipes & more
+  - main [ref=e288]:
+    - generic [ref=e289]:
+      - generic [ref=e293]:
+        - link "Home" [ref=e295] [cursor=pointer]:
+          - /url: https://www.deliciousmagazine.co.uk/
+        - link "Recipes" [ref=e298] [cursor=pointer]:
+          - /url: https://www.deliciousmagazine.co.uk/recipes/
+        - link "Bananas" [ref=e301] [cursor=pointer]:
+          - /url: https://www.deliciousmagazine.co.uk/collections/banana-recipes/
+        - text: Banoffee pie
+      - article [ref=e303]:
+        - generic [ref=e305]:
+          - figure [ref=e307]:
+            - link "Save Recipe" [ref=e309] [cursor=pointer]:
+              - /url: https://www.deliciousmagazine.co.uk/login/
+              - generic: Save Recipe
+              - img [ref=e310]
+            - img "Banoffee pie" [ref=e312]
+          - generic [ref=e314]:
+            - generic [ref=e315]:
+              - heading "Banoffee pie" [level=1] [ref=e316]
+              - generic:
+                - link:
+                  - /url: "#reviews"
+            - generic [ref=e317]:
+              - list [ref=e318]:
+                - listitem [ref=e319]:
+                  - img [ref=e321]
+                  - text: "Portion size: Serves 10-12"
+                - listitem [ref=e324]:
+                  - img [ref=e326]
+                  - text: Hands-on time 50 min, oven time 21-28 min, plus chilling
+                - listitem [ref=e330]:
+                  - img [ref=e332]
+                  - text: "Difficulty:"
+                  - emphasis [ref=e336]: medium
+              - generic [ref=e337]:
+                - generic [ref=e338]:
+                  - link "Save" [ref=e340] [cursor=pointer]:
+                    - /url: https://www.deliciousmagazine.co.uk/login/
+                    - text: Save
+                  - link "Print" [ref=e342] [cursor=pointer]:
+                    - /url: ""
+                    - text: Print
+                - button "Send" [ref=e345] [cursor=pointer]: Send
+        - generic [ref=e347]:
+          - paragraph [ref=e348]: Debbie Major’s banoffee pie recipe respects the original 1970s recipe, made with sweetened pastry rather than a biscuit-crumb base. And of course, it’s filled with caramel, banana and whipped cream…
+          - paragraph [ref=e349]: Ian Dowding, chef of the (now closed) Hungry Monk restaurant in Jevington, East Sussex, along with owner Nigel Mackenzie, is credited with inventing the banoffee pie in the early 1970s. The recipe, says Ian, evolved over time and was based on an American-style coffee/toffee pie made by a work colleague. Ian’s idea came about after a conversation with his sister about boiling unopened tins of condensed milk for hours until it turned to toffee. The brainwave of partnering that sauce with bananas, together with the original coffee-flavoured cream, plus a grated chocolate topping, came together and the now world-famous pie was created. The drizzled chocolate we’ve added isn’t traditional but is less bitter than the original freshly ground coffee decoration.
+          - paragraph [ref=e350]:
+            - text: Have you seen our epic
+            - link "banoffee cheesecake" [ref=e351] [cursor=pointer]:
+              - /url: https://www.deliciousmagazine.co.uk/recipes/banoffee-cheesecake/
+            - text: "?"
+        - generic [ref=e352]:
+          - generic [ref=e355]:
+            - heading "Before you start" [level=2] [ref=e356]
+            - paragraph [ref=e357]: There’s nothing worse than a soggy bottom, so preheating the baking sheet guarantees a crisp pastry base.
+            - paragraph [ref=e358]: Stir the sauce continuously to prevent it from scorching on the bottom of the pan.
+            - paragraph [ref=e359]: Whip the cream until it just stands in soft peaks when the beaters are removed. It will firm up further in the fridge.
+            - paragraph [ref=e360]:
+              - strong [ref=e361]: How to jazz up your banoffee
+            - list [ref=e362]:
+              - listitem [ref=e363]: Add a little booze to the toffee sauce. Dark rum goes very well with bananas.
+              - listitem [ref=e364]: Add orange zest and a squeeze of orange juice to the toffee sauce or the whipped cream.
+              - listitem [ref=e365]: Use a no-bake cheesecake base instead of the pastry, adding a few lightly toasted chopped nuts to the mixture (pecans are particularly good).
+          - generic [ref=e367]:
+            - generic [ref=e368]:
+              - heading "Ingredients" [level=2] [ref=e369]
+              - paragraph [ref=e370]: For the pastry
+              - list [ref=e371]:
+                - listitem [ref=e372]: 175g plain flour, plus extra to dust
+                - listitem [ref=e373]: 50g icing sugar
+                - listitem [ref=e374]: 90g chilled butter, diced
+                - listitem [ref=e375]: 1 medium free-range egg yolk
+              - paragraph [ref=e376]: For the toffee filling
+              - list [ref=e377]:
+                - listitem [ref=e378]: 115g butter
+                - listitem [ref=e379]: 115g light muscovado sugar
+                - listitem [ref=e380]: 397g tin Carnation Caramel
+                - listitem [ref=e381]: ½ tsp sea salt (optional)
+              - paragraph [ref=e382]: For the topping
+              - list [ref=e383]:
+                - listitem [ref=e384]: 300ml double cream
+                - listitem [ref=e385]: 1 tsp instant coffee powder (not granules)
+                - listitem [ref=e386]: 2 tsp caster sugar
+                - listitem [ref=e387]: 4 large or 5 medium ripe bananas
+                - listitem [ref=e388]: 30g dark chocolate, chopped
+              - paragraph [ref=e389]: You’ll also need…
+              - list [ref=e390]:
+                - listitem [ref=e391]: 23cm loose-bottomed flan tin, at least 3cm deep, lightly greased
+            - generic [ref=e395]:
+              - heading "Method" [level=2] [ref=e396]
+              - list [ref=e397]:
+                - listitem [ref=e398]: Put a baking sheet on the middle shelf of the oven and heat the oven to 200°C/180°C fan/gas 6.
+                - listitem [ref=e399]: For the pastry, sift the flour, icing sugar and a pinch of salt into a food processor. Add the butter and pulse briefly until the mixture resembles fine breadcrumbs. (Alternatively, sift the flour and icing sugar into a large bowl and rub in the butter using your fingertips.) In a small bowl, beat the egg yolk briefly with 2 tbsp cold water. Tip the crumb mixture into a large bowl, add the egg yolk mixture and bring together into a ball. Turn out onto a lightly floured surface and knead briefly until smooth. Shape into a disc, wrap in cling film and chill for 15 minutes.
+                - listitem [ref=e400]: Once chilled, remove the pastry from the fridge, roll out to a circle 30cm wide and about 3mm thick, then use to line the prepared tin. Chill for another 15 minutes.
+                - listitem [ref=e401]:
+                  - generic [ref=e403]: Recipe continues after advertising
+                - listitem [ref=e406]: Line the pastry case with foil and a layer of baking beans or uncooked rice and bake for 15-20 minutes until the edge is biscuit-coloured. Carefully remove the foil and beans/rice and bake for 6-8 minutes more or until crisp and golden. Set aside to cool.
+                - listitem [ref=e407]: While the pastry case cools, make the toffee filling. Put the butter and sugar in a medium pan over a medium heat. Whisk continuously as the butter melts and the sugar dissolves until it comes together ina smooth toffee sauce with no trace of melted butter. Stir in the caramel, then bring to the boil and simmer for 3 minutes. Remove from the heat and stir in the sea salt, if using. Pour the filling into the case and chill for at least 1 hour before topping.
+                - listitem [ref=e408]: For the topping, whip together the cream, coffee powder and caster sugar until just forming soft peaks. Thickly slice the bananas and scatter them evenly over the toffee sauce. Spoon over the cream topping, taking it right to the edges and swirling it attractively as you go. Chill for 1 hour.
+                - listitem [ref=e409]: To serve, carefully remove the pie from the tin to a serving plate. Melt the chocolate in bursts in a microwave (or in a small bowl set over a pan of barely simmering water – don’t let the bowl touch the water), then drizzle it over the pie. Serve cut into wedges.
+            - generic [ref=e410]:
+              - heading "Nutrition" [level=2] [ref=e412]
+              - list [ref=e413]:
+                - listitem [ref=e414]:
+                  - generic [ref=e415]: 503kcals
+                  - generic [ref=e416]: Calories
+                - listitem [ref=e417]:
+                  - generic [ref=e418]: 30.9g (19.1g saturated)
+                  - generic [ref=e419]: Fat
+                - listitem [ref=e420]:
+                  - generic [ref=e421]: 2.8g
+                  - generic [ref=e422]: Protein
+                - listitem [ref=e423]:
+                  - generic [ref=e424]: 52.9g (40.8g sugars)
+                  - generic [ref=e425]: Carbs
+                - listitem [ref=e426]:
+                  - generic [ref=e427]: 1.2g
+                  - generic [ref=e428]: Fibre
+                - listitem [ref=e429]:
+                  - generic [ref=e430]: 0.3g
+                  - generic [ref=e431]: Salt
+              - paragraph [ref=e433]: For 12
+          - generic [ref=e435]:
+            - heading "Make Ahead" [level=2] [ref=e436]
+            - paragraph [ref=e437]: Make the toffee filling up to 3 days in advance and keep in a sealed jar or tub in the fridge. Don’t put into the tart case or it will go soggy. Instead, bake the case 1-2 days ahead and store in a tin or wrapped in foil, then assemble.
+          - generic [ref=e441]:
+            - generic [ref=e442]:
+              - heading "Alternative recipes" [level=2] [ref=e443]
+              - generic [ref=e444]:
+                - img [ref=e446]
+                - img [ref=e449]
+            - generic [ref=e452]:
+              - generic [ref=e454]:
+                - generic [ref=e455]:
+                  - link "Save Recipe" [ref=e457] [cursor=pointer]:
+                    - /url: https://www.deliciousmagazine.co.uk/login/
+                    - generic: Save Recipe
+                    - img [ref=e458]
+                  - link "Mini banoffee Baileys pies" [ref=e460] [cursor=pointer]:
+                    - /url: https://www.deliciousmagazine.co.uk/recipes/mini-banoffee-baileys-pies/
+                    - img "Mini banoffee Baileys pies" [ref=e461]
+                - heading "Mini banoffee Baileys pies" [level=3] [ref=e462]:
+                  - link "Mini banoffee Baileys pies" [ref=e463] [cursor=pointer]:
+                    - /url: https://www.deliciousmagazine.co.uk/recipes/mini-banoffee-baileys-pies/
+              - generic [ref=e465]:
+                - generic [ref=e466]:
+                  - link "Save Recipe" [ref=e468] [cursor=pointer]:
+                    - /url: https://www.deliciousmagazine.co.uk/login/
+                    - generic: Save Recipe
+                    - img [ref=e469]
+                  - link "banoffee millionaire's shortbread" [ref=e471] [cursor=pointer]:
+                    - /url: https://www.deliciousmagazine.co.uk/recipes/banoffee-millionaires-shortbread/
+                    - img "banoffee millionaire's shortbread" [ref=e472]
+                - heading "Banoffee millionaire’s shortbread" [level=3] [ref=e473]:
+                  - link "Banoffee millionaire’s shortbread" [ref=e474] [cursor=pointer]:
+                    - /url: https://www.deliciousmagazine.co.uk/recipes/banoffee-millionaires-shortbread/
+              - generic [ref=e476]:
+                - generic [ref=e477]:
+                  - link "Save Recipe" [ref=e479] [cursor=pointer]:
+                    - /url: https://www.deliciousmagazine.co.uk/login/
+                    - generic: Save Recipe
+                    - img [ref=e480]
+                  - link "Banoffee pie" [ref=e482] [cursor=pointer]:
+                    - /url: https://www.deliciousmagazine.co.uk/recipes/banoffee-roulade-with-mocha-cream/
+                    - img "Banoffee pie" [ref=e483]
+                - heading "Banoffee roulade with mocha cream" [level=3] [ref=e484]:
+                  - link "Banoffee roulade with mocha cream" [ref=e485] [cursor=pointer]:
+                    - /url: https://www.deliciousmagazine.co.uk/recipes/banoffee-roulade-with-mocha-cream/
+              - generic [ref=e487]:
+                - generic [ref=e488]:
+                  - link "Save Recipe" [ref=e490] [cursor=pointer]:
+                    - /url: https://www.deliciousmagazine.co.uk/login/
+                    - generic: Save Recipe
+                    - img [ref=e491]
+                  - link "Banoffee pies" [ref=e493] [cursor=pointer]:
+                    - /url: https://www.deliciousmagazine.co.uk/recipes/mini-oreo-banoffee-pies/
+                    - img "Banoffee pies" [ref=e494]
+                - heading "Mini Oreo banoffee pies" [level=3] [ref=e495]:
+                  - link "Mini Oreo banoffee pies" [ref=e496] [cursor=pointer]:
+                    - /url: https://www.deliciousmagazine.co.uk/recipes/mini-oreo-banoffee-pies/
+              - generic [ref=e498]:
+                - generic [ref=e499]:
+                  - link "Save Recipe" [ref=e501] [cursor=pointer]:
+                    - /url: https://www.deliciousmagazine.co.uk/login/
+                    - generic: Save Recipe
+                    - img [ref=e502]
+                  - link "Overhead view of easy banoffee sheet tart" [ref=e504] [cursor=pointer]:
+                    - /url: https://www.deliciousmagazine.co.uk/recipes/easy-banoffee-sheet-tart/
+                    - img "Overhead view of easy banoffee sheet tart" [ref=e505]
+                - heading "Easy banoffee sheet tart" [level=3] [ref=e506]:
+                  - link "Easy banoffee sheet tart" [ref=e507] [cursor=pointer]:
+                    - /url: https://www.deliciousmagazine.co.uk/recipes/easy-banoffee-sheet-tart/
+              - generic [ref=e509]:
+                - generic [ref=e510]:
+                  - link "Save Recipe" [ref=e512] [cursor=pointer]:
+                    - /url: https://www.deliciousmagazine.co.uk/login/
+                    - generic: Save Recipe
+                    - img [ref=e513]
+                  - link "Italian custard pie" [ref=e515] [cursor=pointer]:
+                    - /url: https://www.deliciousmagazine.co.uk/recipes/italian-custard-pie/
+                    - img "Italian custard pie" [ref=e516]
+                - heading "Italian custard pie" [level=3] [ref=e517]:
+                  - link "Italian custard pie" [ref=e518] [cursor=pointer]:
+                    - /url: https://www.deliciousmagazine.co.uk/recipes/italian-custard-pie/
+          - generic [ref=e521]:
+            - heading "Rate and review" [level=2] [ref=e522]
+            - generic [ref=e523]:
+              - heading "Rate" [level=3] [ref=e524]
+              - paragraph [ref=e525]:
+                - text: You must be logged in to rate a recipe,
+                - link "click here to login" [ref=e526] [cursor=pointer]:
+                  - /url: https://www.deliciousmagazine.co.uk/login/?redirect_to=https%3A%2F%2Fwww.deliciousmagazine.co.uk%2Frecipes%2Fbanoffee-pie%2F
+                - text: .
+            - generic [ref=e528]:
+              - heading "Leave a comment, question or tip" [level=3] [ref=e529]: Leave a comment, question or tip
+              - generic [ref=e530]:
+                - paragraph [ref=e531]:
+                  - textbox "Something to say? Tell us what you loved about this. Inspire others, get typing" [disabled] [ref=e532]
+                - paragraph [ref=e533]:
+                  - button "Submit" [disabled] [ref=e534] [cursor=pointer]
+      - generic [ref=e537]:
+        - heading "Just for you" [level=2] [ref=e538]
+        - paragraph [ref=e539]: Looking for inspiration? Receive the latest recipes straight to your inbox with our newsletter
+        - generic [ref=e541]:
+          - textbox "Email" [ref=e542]
+          - button "Sign me up" [ref=e543] [cursor=pointer]
+        - paragraph [ref=e545]:
+          - text: By joining our newsletter you agree to our
+          - link "Privacy Policy" [ref=e546] [cursor=pointer]:
+            - /url: /privacy-policy/
+      - generic [ref=e550]:
+        - generic [ref=e551]:
+          - heading "You might like" [level=2] [ref=e552]
+          - generic [ref=e553]:
+            - img [ref=e555]
+            - img [ref=e558]
+        - generic [ref=e561]:
+          - generic [ref=e563]:
+            - link "Valentine's dessert recipes" [ref=e565] [cursor=pointer]:
+              - /url: https://www.deliciousmagazine.co.uk/14-desserts-to-make-your-valentine-swoon/
+              - img "Valentine's dessert recipes" [ref=e566]
+            - heading "14 desserts to make your Valentine swoon" [level=3] [ref=e567]:
+              - link "14 desserts to make your Valentine swoon" [ref=e568] [cursor=pointer]:
+                - /url: https://www.deliciousmagazine.co.uk/14-desserts-to-make-your-valentine-swoon/
+          - generic [ref=e570]:
+            - link "Banoffee pie" [ref=e572] [cursor=pointer]:
+              - /url: https://www.deliciousmagazine.co.uk/how-to-make-sweet-pastry/
+              - img "Banoffee pie" [ref=e573]
+            - heading "How to make sweet pastry" [level=3] [ref=e574]:
+              - link "How to make sweet pastry" [ref=e575] [cursor=pointer]:
+                - /url: https://www.deliciousmagazine.co.uk/how-to-make-sweet-pastry/
+      - generic [ref=e578]:
+        - generic [ref=e579]:
+          - heading "More inspiration" [level=2] [ref=e580]
+          - generic [ref=e581]:
+            - img [ref=e583]
+            - img [ref=e586]
+        - generic [ref=e589]:
+          - generic [ref=e591]:
+            - link "Banana recipes" [ref=e593] [cursor=pointer]:
+              - /url: https://www.deliciousmagazine.co.uk/collections/banana-recipes/
+              - img "Banana recipes" [ref=e594]
+            - heading "Banana recipes" [level=3] [ref=e595]:
+              - link "Banana recipes" [ref=e596] [cursor=pointer]:
+                - /url: https://www.deliciousmagazine.co.uk/collections/banana-recipes/
+          - generic [ref=e598]:
+            - link "Blueberry and peach pie" [ref=e600] [cursor=pointer]:
+              - /url: https://www.deliciousmagazine.co.uk/collections/sweet-pie-recipes/
+              - img "Blueberry and peach pie" [ref=e601]
+            - heading "Sweet pie recipes" [level=3] [ref=e602]:
+              - link "Sweet pie recipes" [ref=e603] [cursor=pointer]:
+                - /url: https://www.deliciousmagazine.co.uk/collections/sweet-pie-recipes/
+          - generic [ref=e605]:
+            - link "Ideas for make-ahead dessert recipes including a strawberry daiquiri tart" [ref=e607] [cursor=pointer]:
+              - /url: https://www.deliciousmagazine.co.uk/collections/make-ahead-dessert-recipes/
+              - img "Ideas for make-ahead dessert recipes including a strawberry daiquiri tart" [ref=e608]
+            - heading "Make-ahead dessert recipes" [level=3] [ref=e609]:
+              - link "Make-ahead dessert recipes" [ref=e610] [cursor=pointer]:
+                - /url: https://www.deliciousmagazine.co.uk/collections/make-ahead-dessert-recipes/
+          - generic [ref=e612]:
+            - link "Arctic roll - retro pudding" [ref=e614] [cursor=pointer]:
+              - /url: https://www.deliciousmagazine.co.uk/collections/retro-puddings/
+              - img "Arctic roll - retro pudding" [ref=e615]
+            - heading "Retro puddings" [level=3] [ref=e616]:
+              - link "Retro puddings" [ref=e617] [cursor=pointer]:
+                - /url: https://www.deliciousmagazine.co.uk/collections/retro-puddings/
+      - heading "More to discover" [level=2] [ref=e621]
+  - contentinfo [ref=e622]:
+    - generic [ref=e623]:
+      - navigation [ref=e624]:
+        - list [ref=e626]:
+          - listitem [ref=e627]:
+            - link "About" [ref=e628] [cursor=pointer]:
+              - /url: https://www.deliciousmagazine.co.uk/about/
+          - listitem [ref=e629]:
+            - link "Food team" [ref=e630] [cursor=pointer]:
+              - /url: https://www.deliciousmagazine.co.uk/meet-the-food-team/
+          - listitem [ref=e631]:
+            - link "Contact" [ref=e632] [cursor=pointer]:
+              - /url: https://www.deliciousmagazine.co.uk/contact/
+          - listitem [ref=e633]:
+            - link "Sitemap" [ref=e634] [cursor=pointer]:
+              - /url: https://www.deliciousmagazine.co.uk/sitemap/
+          - listitem [ref=e635]:
+            - link "Cookies" [ref=e636] [cursor=pointer]:
+              - /url: https://www.deliciousmagazine.co.uk/cookie-policy/
+          - listitem [ref=e637]:
+            - link "Privacy policy" [ref=e638] [cursor=pointer]:
+              - /url: https://www.deliciousmagazine.co.uk/privacy-policy/
+          - listitem [ref=e639]:
+            - link "Advertise" [ref=e640] [cursor=pointer]:
+              - /url: https://www.deliciousmagazine.co.uk/want-to-advertise-with-delicious/
+      - list [ref=e641]:
+        - listitem [ref=e642]:
+          - link "TikTok" [ref=e643] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@deliciousmag/
+            - img "TikTok" [ref=e644]
+        - listitem [ref=e646]:
+          - link "Facebook" [ref=e647] [cursor=pointer]:
+            - /url: https://www.facebook.com/deliciousmagazineuk/
+            - img "Facebook" [ref=e648]
+        - listitem [ref=e650]:
+          - link "Instagram" [ref=e651] [cursor=pointer]:
+            - /url: https://www.instagram.com/deliciousmag/
+            - img "Instagram" [ref=e652]
+      - paragraph [ref=e654]: delicious. magazine is a part of Eye to Eye Media Ltd © 2025
+  - iframe [ref=e655]:
+    
