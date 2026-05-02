@@ -176,11 +176,16 @@ class Account(BaseModel):
 
 # Example of usage:
 if __name__ == "__main__":
-    account = Account("John Doe")
-    account.deposit(1000)
-    account.buy_shares("AAPL", 5)
-    account.sell_shares("AAPL", 2)
-    print(f"Current Holdings: {account.get_holdings()}")
-    print(f"Total Portfolio Value: {account.calculate_portfolio_value()}")
-    print(f"Profit/Loss: {account.get_profit_loss()}")
-    print(f"Transactions: {account.list_transactions()}")
+    # account = Account.get("John Doe")
+    # account.deposit(1000)
+    # account.buy_shares("AAPL", 5)
+    # account.sell_shares("AAPL", 2)
+    # print(f"Current Holdings: {account.get_holdings()}")
+    # print(f"Total Portfolio Value: {account.calculate_portfolio_value()}")
+    # print(f"Profit/Loss: {account.get_profit_loss()}")
+    # print(f"Transactions: {account.list_transactions()}")
+    # account = Account.get("John Doe")
+    # account = Account.get("John Doe")
+    account = Account.get("John").balance
+    print(account)
+

@@ -10,7 +10,7 @@ async def get_balance(name:str) -> float:
       args:
          name: The name of the account holder
       """
-      return Account.get(name).balance()
+      return Account.get(name).balance
 
 @mcp.tool()
 async def get_holdings(name: str) -> dict[str, int]:
