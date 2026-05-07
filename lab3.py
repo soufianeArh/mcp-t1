@@ -17,15 +17,27 @@ model = "gpt-4.1-mini"
 
 async def main():
 
+      # async with MCPServerStdio(params=params, client_session_timeout_seconds=30) as mcp_server:
+      #       agent = Agent(name="agent", instructions=instructions, model=model, mcp_servers=[mcp_server])
+      #       with trace("conversation"):
+      #             result = await Runner.run(agent, request)
+      #             print(result.final_output)
+      # async with MCPServerStdio(params=params, client_session_timeout_seconds=60) as mcp_server:
+      #       agent = Agent(name="agent", instructions=instructions, model=model, mcp_servers=[mcp_server])
+      #       with trace("conversation"):
+      #             result = await Runner.run(agent, "Im soufiane what you know about me")
+      #             print(result.final_output)
+
+      env = {"SERPER_API_KEY": os.getenv("SERPER_API_KEY")}
+      params = {"command": "npx", "args": ["-y", "serper-search-scrape-mcp-server"], "env": env}
+
+      instructions = "You are able to search the web for information and briefly summarize the takeaways."
+      request = f"Please research the latest news on Amazon stock price and briefly summarize its outlook. \
+      For context, the current date is {datetime.now().strftime('%Y-%m-%d')}"
+      model = "gpt-4o-mini"
       async with MCPServerStdio(params=params, client_session_timeout_seconds=30) as mcp_server:
             agent = Agent(name="agent", instructions=instructions, model=model, mcp_servers=[mcp_server])
             with trace("conversation"):
                   result = await Runner.run(agent, request)
                   print(result.final_output)
-      async with MCPServerStdio(params=params, client_session_timeout_seconds=60) as mcp_server:
-            agent = Agent(name="agent", instructions=instructions, model=model, mcp_servers=[mcp_server])
-            with trace("conversation"):
-                  result = await Runner.run(agent, "Im soufiane what you know about me")
-                  print(result.final_output)
-
 asyncio.run(main())
